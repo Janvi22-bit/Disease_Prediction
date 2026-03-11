@@ -215,7 +215,7 @@ precautions = {
 # -------------------------------------------------
 # Symptom Selection
 # -------------------------------------------------
-st.subheader("🤒 Select Symptoms You Feel")
+st.subheader("Select Symptoms You Feel")
 
 selected_symptoms = st.multiselect(
 "Choose symptoms from the list below:",
@@ -259,4 +259,5 @@ if st.button("🔍 Predict Disease", key="predict_btn"):
 # Footer
 # -------------------------------------------------
 st.write("---")
+
 st.write("⚠ This tool is for learning purposes only. Always consult a doctor for medical advice.")
